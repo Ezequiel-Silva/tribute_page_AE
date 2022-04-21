@@ -1,0 +1,48 @@
+*{  
+    box-sizing: border-box;  
+    font-family: Arial; 
+    list-style: none;
+    padding: 0; 
+    border: 0; 
+    margin: 0;
+}
+body{ 
+    margin: 0px; 
+    padding: 0px; 
+    font-size: 17px; 
+    color: beige;
+}
+ol, ul {
+	list-style: none;
+}
+header, 
+.container, 
+.logo, 
+.mrnu, 
+nav ul, 
+#banner,  
+.banner_headline, 
+.banner_options,
+#geral,
+.flex, 
+article .news_data, 
+footer, 
+.footer_menu, 
+.footer_area
+{
+    display: flex;
+}
+.pag1{
+    display:block;
+}
+.pag2, 
+.pag3,
+.pag4,
+.pag5,
+.pag6,
+.pag7,
+.pag8,
+.pag9
+{
+    display: none;
+}
